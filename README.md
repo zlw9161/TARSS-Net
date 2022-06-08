@@ -1,30 +1,31 @@
 # TARSS-Net: Temporal-Aware Radar Semantic Segmentation Network
 
-## Paper
+## Paper Info
 
 ![teaser_schema](./images/tarss-net-teaser.png)
 
-Anon-Authors, TARSS-Net: Temporal-Aware Radar Semantic Segmentation Network, submitted to ACMMM 2022.
+- Anon-Authors, TARSS-Net: Temporal-Aware Radar Semantic Segmentation Network, submitted to ACMMM 2022, paper ID: 1529.
 
+***Pls note that this repo is used for the response of ACMMM 2022 review.***
 
-This repository is the implementation of TARSS-Net including TARSS-Net w/ Spatio-TRAP and TARSS-Net w/ Depth-TRAP.
+## Basic Description
 
-Pls **note** that this anonymous repository is just for the rebuttal of ACMMM 2022.
+This repository contains the implementation of TARSS-Net including TARSS-Net w/ Spatio-TRAP and TARSS-Net w/ Depth-TRAP proposed in the submitted paper #1529.
 
-The models are trained and tested on the [CARRADA dataset](https://arxiv.org/abs/2005.01456).
+- TARSS-Net is developed using [MVRSS](https://github.com/valeoai/MVRSS) as basic framework, it inherits `mvrss`  model class;
+- The model definition files are located in `TARSS/mvrss/models`, where `tarssnet_v1.py` defines TARSS-Net w/ Depth-TRAP (TARSS-Net\_D), `tarssnet_v2.py` defines TARSS-Net w/ Spatio-TRAP (TARSS-Net\_S);
+- The detailed test results of TMVA-Net in [MVRSS-paper](https://arxiv.org/abs/2103.16214) and two TARSS-Net in submitted paper #1529 are provided at `TARSS/test_results`:
+	- Results for TMVA-Net: see `TARSS/test_results/test_metrics_tmvanet.py`;
+	- Results for TARSS-Net\_D: see `TARSS/test_results/test_metrics_tarrsnet_d.py`;
+	- Results for TARSS-Net\_S: see `TARSS/test_results/test_metrics_tarrsnet_s.py`;
+
+***These models are trained and tested on the [CARRADA dataset](https://arxiv.org/abs/2005.01456) under the same experimental setup in [MVRSS-paper](https://arxiv.org/abs/2103.16214).***
 
 The CARRADA dataset is available at this link: [https://arthurouaknine.github.io/codeanddata/carrada](https://arthurouaknine.github.io/codeanddata/carrada).
 
 ## Installation
 
-You can either use Docker with the provided [Dockerfile](./Dockerfile) containing all the dependencies, or follow these steps.
-
-Clone or download the repo:
-
-For Cloning:
-```bash
-$ git clone https://github.com/ArthurOuaknine/MVRSS.git
-```
+- Please first clone or download the repo from [https://anonymous.4open.science/r/TARSS-Net-3D8B](https://anonymous.4open.science/r/TARSS-Net-3D8B)
 
 ###Installation Steps
 1. Install basic multi-view RSS network lib using pip:
