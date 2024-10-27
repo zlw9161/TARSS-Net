@@ -1,16 +1,31 @@
 # TARSS-Net: Temporal-Aware Radar Semantic Segmentation Network
 
 ## Paper Info
-
+- TARSS-Net Structure
 ![teaser_schema](./images/teaser.png)
 
-- Youcheng Zhang^{*}, Liwen Zhang^{*},  TARSS-Net: Temporal-Aware Radar Semantic Segmentation Network, submitted to ACMMM 2022, paper ID: 1529.
+- TARSS-Net Basic Idea
+![basic_idea](./images/basic-idea.png)
 
-***Pls note that this repo is used for the response of ACMMM 2022 review.***
+- Comparison of other sequential models
+![seq_models](./images/sequential-model.png)
+
+- Class-wise Performance
+![class_wise](./images/sota-class.png)
+
+- Input-length Performance
+![input_len](./images/input-length.png)
+
+- Results Visulization
+![visulization](./images/visualization.png)
+
+
+### Authors
+Youcheng Zhang*, [Liwen Zhang](https://github.com/zlw9161)\*, Zijun Hu, et al., TARSS-Net: Temporal-Aware Radar Semantic Segmentation Network, accepted by NeurIPS 2024, paper ID: 9831 (* Equal Contributions).
 
 ## Basic Description
 
-This repository contains the implementation of TARSS-Net including TARSS-Net w/ Spatio-TRAP and TARSS-Net w/ Depth-TRAP proposed in the submitted paper #1529.
+This repository contains the implementation of TARSS-Net including TARSS-Net w/ Spatio-TRAP and TARSS-Net w/ Depth-TRAP.
 
 - TARSS-Net is developed using [MVRSS](https://github.com/valeoai/MVRSS) as basic framework, it inherits `mvrss`  model class;
 - The model definition files are located in `TARSS/mvrss/models`, where `tarssnet_v1.py` defines TARSS-Net w/ Depth-TRAP (TARSS-Net\_D), `tarssnet_v2.py` defines TARSS-Net w/ Spatio-TRAP (TARSS-Net\_S);
