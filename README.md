@@ -100,3 +100,9 @@ $ python test.py --cfg /home/logs/carrada/tarssnet_v1/name_of_the_model/config.j
 ## License
 
 The TARSS-Net repo is released under the Apache 2.0 license.
+
+## To do list
+- Videos uploading
+- Code review
+- Single-View Code
+- ViT model
