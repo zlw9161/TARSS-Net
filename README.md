@@ -2,9 +2,9 @@
 
 ## Paper Info
 
-![teaser_schema](./images/tarss-net-teaser.png)
+![teaser_schema](./images/teaser.png)
 
-- Anon-Authors, TARSS-Net: Temporal-Aware Radar Semantic Segmentation Network, submitted to ACMMM 2022, paper ID: 1529.
+- Youcheng Zhang^{*}, Liwen Zhang^{*},  TARSS-Net: Temporal-Aware Radar Semantic Segmentation Network, submitted to ACMMM 2022, paper ID: 1529.
 
 ***Pls note that this repo is used for the response of ACMMM 2022 review.***
 
