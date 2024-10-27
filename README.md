@@ -1,6 +1,10 @@
 # TARSS-Net: Temporal-Aware Radar Semantic Segmentation Network
 
-## Paper Info
+## Authors
+Youcheng Zhang*, [Liwen Zhang](https://github.com/zlw9161)\*, Zijun Hu, et al., TARSS-Net: Temporal-Aware Radar Semantic Segmentation Network, accepted by NeurIPS 2024, paper ID: 9831 (* Equal Contributions).
+
+## Brief introductions of the paper
+
 - TARSS-Net Structure
 ![teaser_schema](./images/teaser.png)
 
@@ -19,11 +23,7 @@
 - Results Visulization
 ![visulization](./images/visualization.png)
 
-
-### Authors
-Youcheng Zhang*, [Liwen Zhang](https://github.com/zlw9161)\*, Zijun Hu, et al., TARSS-Net: Temporal-Aware Radar Semantic Segmentation Network, accepted by NeurIPS 2024, paper ID: 9831 (* Equal Contributions).
-
-## Basic Description
+## Basic description of the code
 
 This repository contains the implementation of TARSS-Net including TARSS-Net w/ Spatio-TRAP and TARSS-Net w/ Depth-TRAP.
 
