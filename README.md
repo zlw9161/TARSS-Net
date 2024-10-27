@@ -95,8 +95,7 @@ $ python test.py --cfg /home/logs/carrada/tarssnet_v1/name_of_the_model/config.j
 
 ## Acknowledgements
 - Thank [CARRADA dataset](https://arxiv.org/abs/2005.01456) for providing the Radar dataset.
-- Thank [MVRSS](https://arxiv.org/abs/2103.16214) for providing the basic model framework of multi-view RSS network. And we build our model using the basic framework of `mvrss` lib, our incremental modifications to the  `mvrss` code did not effect the TMVA-Net and MV-Net in MVRSS. 
-- The paper is under review of the ACMMM2022, other special thanks will be mentioned after the final results.
+- Thank [MVRSS](https://arxiv.org/abs/2103.16214) for providing the basic model framework of multi-view RSS network. And we build our model using the basic framework of `mvrss` lib, our incremental modifications to the  `mvrss` code did not effect the TMVA-Net and MV-Net in MVRSS.
 
 ## License
 
